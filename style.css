@@ -113,7 +113,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     grid-area: 1 / 2 / 3 / 3;
     width: 300px;
     margin-left: 40px;
@@ -123,24 +123,37 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 10px;
+}
+
+.link h3{
+    background: linear-gradient(45deg, #63b1b8, #539386);
+    border-radius: 10px;
+    padding: 0px 9px;
+    color: rgba(255, 255, 255, 0.76);
 }
 
 .link a {
-    text-decoration: none;
     font-size: 0.8rem;
     font-weight: 500;
     color: white;
-    background-color: rgba(0, 0, 255, 0.5);
-    border-radius: 20px;
-    padding: 5px 8px;
+    background: linear-gradient(45deg, #63b1b8, #539386);
+    border-radius: 6px;
+    padding: 2px 8px;
 }
 
+.link a:hover {
+    text-decoration: none;
+}
 
 .dummy-details {
     width: 250px;
-    height: 90px;
+    height: 110px;
     overflow: auto;
-    margin-bottom: 10px;
+    border: 3px solid rgb(214, 212, 212);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
 }
 
 .dummy-details p {
@@ -150,36 +163,21 @@ nav {
     text-align: justify;
 }
 
-/* Target the container with the class "custom-scrollbar" */
-.custom-scrollbar {
-    /* Set a fixed height for the container to enable scrolling */
-    height: 90px;
-    /* Enable overflow so that the scrollbar becomes visible */
-    overflow: auto;
-}
-
 ::-webkit-scrollbar {
     background-color: rgb(255, 255, 255);
     width: 6px;
-    padding-left: 10px;
-    border-radius: 10px;
 }
 
 
-/* Style the scrollbar track (the area the thumb moves along) */
 .custom-scrollbar::-webkit-scrollbar-track {
-    background-color: #e4e4e4; /* Change the background color as desired */
-    border-radius: 10px;
-    border: 1px solid rgba(122, 122, 122, 0.404);
+    background-color: rgb(237, 237, 237);
 }
 
-/* Style the scrollbar thumb (the draggable handle) */
 .custom-scrollbar::-webkit-scrollbar-thumb {
-    background-color: #b4b3b37b; /* Change the color of the thumb */
-    border-radius: 2px; /* Optional: Add rounded corners to the thumb */
+    background-color: #b4b3b37b;
+    border-radius: 2px;
 }
 
-/* Style the scrollbar thumb on hover */
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background-color: #afafaf; /* Change the color on hover */
+    background-color: #afafaf;
 }
