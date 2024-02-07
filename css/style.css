@@ -65,7 +65,7 @@ nav {
     border-radius: 8px;
     box-shadow: 8px 4px 10px rgba(93, 103, 102, 0.4);
     cursor: pointer;
-    transition: all 0.4s ease;
+    transition: all 0.2s ease;
 }
 
 #button:hover {
@@ -207,4 +207,16 @@ footer p {
     color: #3c4349;
     font-weight: 400;
     font-size: 0.8rem;
+}
+
+
+@media (max-width: 1250px) {
+    .list {
+        display: flex;
+        gap: 20px;
+    }
+
+    #button {
+        margin-left: 10px;
+    }
 }
