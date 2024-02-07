@@ -46,12 +46,12 @@ nav {
     color: #637789;
     font-size: 0.8rem;
     font-weight: 500;
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
 }
 
 .list li:hover {
     cursor: pointer;
-    color: #3c4349;
+    color: #303336;
 }
 
 #button {
