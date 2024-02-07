@@ -3,8 +3,9 @@
 Welcome to the implementation of a Figma design into a fully functional web application! This project serves as a hands-on practice opportunity, allowing you to translate a meticulously crafted Figma design into a responsive and dynamic web experience. By engaging in this exercise, you will gain valuable insights into front-end development, user interface (UI) implementation, and the seamless integration of design elements into the web environment.
 
 ### Click below liks to see designs : 
-1. **Figma Design one :** [FigmaDesignOne](https://www.figma.com/file/CPJodnscX67Rbg7MX0syth/Actual-Work?type=design&node-id=5%3A2&mode=design&t=fCN2y75KgoHaOHkv-1){:target="_blank"}
-2. **Figma Design one :** [FigmaDesignOne](https://www.figma.com/file/CPJodnscX67Rbg7MX0syth/Actual-Work?type=design&node-id=28%3A2&mode=design&t=fCN2y75KgoHaOHkv-1){:target="_blank"}
+1. **Figma Design one :** <a href="https://www.figma.com/file/CPJodnscX67Rbg7MX0syth/Actual-Work?type=design&node-id=5%3A2&mode=design&t=fCN2y75KgoHaOHkv-1" target="_blank">FigmaDesignOne</a>
+
+1. **Figma Design two :** <a href="https://www.figma.com/file/CPJodnscX67Rbg7MX0syth/Actual-Work?type=design&node-id=28%3A2&mode=design&t=fCN2y75KgoHaOHkv-1" target="_blank">FigmaDesignTwo</a>
 
 ### Getting Started
 1. **Figma Design:** Begin by exploring the provided Figma design, paying attention to layout, color schemes, and interactive components.
