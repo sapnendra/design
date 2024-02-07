@@ -71,3 +71,28 @@ nav {
 #button:hover {
     box-shadow: 8px 4px 10px rgba(49, 48, 48, 0.5);
 }
+
+@media (max-width: 576px) {
+    #logo {
+        left: 10px;
+        width: 80px;
+    }
+
+    .navbar {
+        max-width: 576px;
+    }
+
+    nav {
+        height: 75px;
+    }
+
+    .list {
+        display: none;
+    }
+
+    #button {
+        position: absolute;
+        left: 270px;
+        margin: 0;
+    }
+}
